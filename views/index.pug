@@ -2,31 +2,31 @@ extends layout
 
 block content
     .pusher
-        .ui.inverted.vertical.masthead.center.aligned.segment
+        .ui.inverted.vertical.masthead.center.aligned.segment#main_banner
             .ui.container
                 .ui.large.secondary.inverted.pointing.menu
                     a.active.item Heim
                     a.item Um okkur
                     a.item Okkar sýn
-            .ui.text.container
-                h1.ui.inverted.header Rock-In
-                h2 Besta fyrirtæki í heimi 
+            .ui.text.container#main_header
+                h1.ui.inverted.header Plokk-In
+                h2 Hreinna Ísland
         .ui.vertical.stripe.segment
             .ui.middle.aligned.stackable.grid.container
                 .row
                     .eight.wide.column
                         h3.ui.header Verkefnið okkar
-                        p Við í Rock-In stefnum á að hreinsa umhverfið okkar og viljum að allir séu með!
+                        p Við í Plokk-In stefnum á að hreinsa umhverfið okkar og viljum að allir séu með! 
                             | Þess vegna bjuggum við til Plokk-In sem gerir leik úr því fyrir alla aldurshópa.
                         h3.ui.header Samstarf við borgarstjórn
-                        p Við lítum hreinsum á umhverfinu mikilvægum augum og þess vegna erum við í nánu samstarfi við
-                            | Reykjavíkurborg, og stefnum á samtarf við fleiri borgi og bæi. Þannig getum við fengið sem
+                        p Við lítum hreinsum á umhverfinu mikilvægum augum og þess vegna erum við í nánu samstarfi við 
+                            | Reykjavíkurborg, og stefnum á samtarf við fleiri borgi og bæi. Þannig getum við fengið sem 
                             | bestar niðurstöður og verðlaunað þáttakendur.
                     .eight.wide.right.floated.column
                         img.ui.big.fluid.rounded.image(src="images/plokkin_map.png")
                 .row
                     .center.aligned.column
-                        a.ui.huge.button Plokk-In 
+                                a.ui.huge.button(href="http://157.157.9.120" target="_blank") Plokk-In
         .ui.vertical.stripe.segment
             .ui.text.container
                 h3.ui.header Teymið á bakvið Plokk-In
@@ -38,30 +38,35 @@ block content
                     .column
                         img.ui.small.circular.spaced.image(src="images/guolin.png")
                         h3 Guolin Fang
-                        p CEO
+                        p Formaður 
                         p B.Sc. í rafmagnsverkfræði, HÍ
-                .center.aligned.row
                     .column
                         img.ui.small.circular.spaced.image(src="images/stefanth.png")
                         h3 Stefán Þorvarðarson
                         p Bakenda forritari
-                        p B.Sc. í rafmagnsverkfræði og tölvunarfræði, HÍ
+                        p M.Sc. í rafmagnsverkfræði og tölvunarfræði, HÍ
+                .center.aligned.row
                     .column
                         img.ui.small.circular.spaced.image(src="images/stefancarl.png")
                         h3 Stefán Carl Peiser
                         p Full-stack forritari
                         p B.Sc. í hugbúnaðarverkfræði, HÍ
-                .center.aligned.row
                     .column
                         img.ui.small.circular.spaced.image(src="images/oddgeir2.png")
                         h3 Oddgeir Páll Georgsson
                         p Framenda forritari
                         p B.Sc. í hugbúnaðarverkfræði, HÍ
+                .center.aligned.row
                     .column
                         img.ui.small.circular.spaced.image(src="images/biggi.png")
                         h3 Brynjólfur Gíslason
+                        p Samskiptafulltrúi
+                        p Nemi
+                    .column
+                        img.ui.small.circular.spaced.image(src="images/hulda.png")
+                        h3 Hulda Vigdísardóttir
                         p Markaðsfulltrúi
-                        p Stúdent úr Menntaskóla Kópavogs
+                        p Nemi
         .ui.inverted.vertical.footer.segment
             .ui.container
                 .ui.stackable.inverted.divided.equal.height.stackable.grid
@@ -78,7 +83,7 @@ block content
                             a.item Plokkin
                             a.item Maps
                             a.item Sensors
-                            a.item Guolin's balls
+                            a.item Miscellaneous
                     .seven.wide.column
                         h4.ui.inverted.header Additional information
                         p Very important additional information you must absolutely read.
